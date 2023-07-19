@@ -1,13 +1,16 @@
 <header>
-    <h1>Sono Header</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">About Us</a>
-            </li>
-        </ul>
-    </nav>
+    <section>
+        <div>
+            <img src="../assets/img/dc-logo.png" alt="Logo DC">
+        </div>
+        <nav>
+            <ul>
+                <li v-for="element in navBarList">
+                    <a v-bind:class="element.active ? 'active' : 'no_active'" href="#">
+                        
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
 </header>
