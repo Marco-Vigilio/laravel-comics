@@ -1,12 +1,12 @@
 <header>
     <section>
         <div>
-            <img src="../assets/img/dc-logo.png" alt="Logo DC">
+            <img src="../img/dc-logo.png" alt="Logo DC">
         </div>
         <nav>
             <ul>
-                <li v-for="element in navBarList">
-                    <a v-bind:class="element.active ? 'active' : 'no_active'" href="#">
+                <li >
+                    <a href="#">
                         
                     </a>
                 </li>
